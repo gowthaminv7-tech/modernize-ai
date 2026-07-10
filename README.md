@@ -2,15 +2,15 @@
 
 ## Overview
 
-Modernize AI is a Generative AI project that transforms traditional building images into eco-friendly building designs using Stable Diffusion and ControlNet.
+Modernize AI is a Generative AI project that modernizes traditional buildings into eco-friendly designs and recommends sustainable construction materials based on environmental and structural requirements. The project combines image generation with intelligent material recommendations to support sustainable architecture.
 
 ## Features
 
-- Stable Diffusion image generation
-- ControlNet conditioning
-- Prompt-based transformation
+- Transform traditional building images into eco-friendly designs
+- Generate realistic architectural visualizations using Stable Diffusion and ControlNet
+- Recommend sustainable building materials
 - Interactive Gradio interface
-- Sustainable building visualization
+- AI-assisted decision support for green construction
 
 ## Technologies
 
@@ -25,7 +25,26 @@ Modernize AI is a Generative AI project that transforms traditional building ima
 
 ## Workflow
 
-Input Image → Preprocessing → ControlNet → Stable Diffusion → Eco-Friendly Output
+Input Building
+      │
+      ▼
+Image Preprocessing
+      │
+      ▼
+ControlNet + Stable Diffusion
+      │
+      ▼
+Eco-Friendly Building
+
+              │
+              ▼
+
+Material Recommendation Engine
+
+              │
+              ▼
+
+Recommended Sustainable Materials
 
 ## Future Improvements
 
