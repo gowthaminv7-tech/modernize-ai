@@ -1,0 +1,11 @@
+torch
+diffusers
+transformers
+accelerate
+gradio
+opencv-python
+pillow
+numpy
+huggingface-hub
+safetensors
+controlnet-aux
